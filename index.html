@@ -1,19 +1,91 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Lucas Calesco</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-        <h2>Hello World!</h2>
-        <h3>Hello World!</h3>
-        <h4>Hello World!</h4>
-        <h5>Hello World!</h5>
-        <h6>Hello World!</h6>
-        <p>Hello World!</p>
-        <p>Hello <span style="color: blue;">World</span>!</p>
+<head>
+   <title>Lucas Calesco</title>
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         background-color: #333333;
+         margin: 0;
+         padding: 20px;
+      }
 
-        <script>
-            alert("Bem-vindo!");
-        </script>
-    </body>
+      .content-box {
+         background-color: #ffffff;
+         padding: 20px;
+         border-radius: 8px;
+         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+         color: #333333;
+         font-size: 24px;
+         text-align: center;
+         text-transform: uppercase;
+         margin-bottom: 20px;
+      }
+
+      p {
+         color: #666666;
+         line-height: 1.5;
+         text-align: center;
+         margin-bottom: 20px;
+      }
+
+      h2 {
+         color: #333333;
+         font-size: 20px;
+         margin-top: 30px;
+         margin-bottom: 10px;
+      }
+
+      ul {
+         list-style-type: none;
+         padding: 0;
+         margin: 0;
+      }
+
+      li {
+         margin-bottom: 10px;
+      }
+
+      .button {
+         display: inline-block;
+         padding: 10px 20px;
+         background-color: #333333;
+         color: #ffffff;
+         border-radius: 4px;
+         transition: transform 0.3s ease-in-out;
+      }
+
+      .button:hover {
+         transform: scale(1.1);
+      }
+
+      a {
+         text-decoration: none;
+         color: inherit;
+      }
+   </style>
+</head>
+<body>
+   <div class="content-box">
+      <h1>Welcome to Lucas Calesco's Page</h1>
+      <p>Explore the main contents of Lucas Calesco's GitHub below:</p>
+
+      <h2>Files</h2>
+      <ul>
+         <li><a href="curriculo.html" target="blank"><span class="button">View Resume / Curriculum Vitae (CV)</span></a></li>
+      </ul>
+      <h2>Projects</h2>
+      <ul>
+         <li><a href="https://github.com/LucasCalesco/LucasCalesco.github.io" target="blank"><span class="button">Repository Index</span></a></li>
+         <li><a href="https://github.com/LucasCalesco/LucasCalesco" target="blank"><span class="button">Repository ReadMe</span></a></li>
+      </ul>
+   </div>
+
+   <script>
+      alert("Welcome! 😁");
+   </script>
+</body>
 </html>
